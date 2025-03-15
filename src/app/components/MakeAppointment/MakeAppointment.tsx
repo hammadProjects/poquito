@@ -28,7 +28,7 @@ const MakeAppointment: React.FC = () => {
         >
           Make an Appointment
         </button>
-        <div className="absolute -bottom-5 sm:bottom-10 right-10">
+        <div className="absolute -bottom-5 sm:bottom-10 right-0 sm:right-10">
           <Image
             src={"/special-care/pink-star.svg"}
             alt="star"
