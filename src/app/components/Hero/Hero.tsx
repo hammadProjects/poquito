@@ -34,8 +34,8 @@ const cards = [
 
 const Hero: React.FC = () => {
   return (
-    <section>
-      <div className="max-w-[70%] mx-auto text-center pb-20 relative">
+    <section className="h-[350px]">
+      <div className="max-w-[70%] mx-auto text-center relative">
         <Image
           src={"/cloud.svg"}
           alt="cloud"
@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
           alt="bird"
           width={60}
           height={60}
-          className="absolute right-0 bottom-0"
+          className="absolute right-0"
           priority
         />
       </div>
