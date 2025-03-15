@@ -1,0 +1,289 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "poppins";
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Animate hero text */
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-move-up {
+  animation: moveUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+.delay-5s {
+  animation-delay: 1s;
+}
+
+.delay-last {
+  animation-delay: 5s;
+}
+
+/* Animation girrafe */
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-move-down {
+  animation: moveDown 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes moveRight {
+  0% {
+    transform: translateX(-20px);
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-move-right {
+  animation: moveRight 1s ease-out forwards;
+  opacity: 0;
+}
+
+.delay-1s {
+  animation-delay: 0.5s;
+}
+
+.delay-2s {
+  animation-delay: 1.2s;
+}
+
+.delay-3s {
+  animation-delay: 1.8s;
+}
+
+.delay-4s {
+  animation-delay: 2.5s;
+}
+
+.delay-5s {
+  animation-delay: 3.1s;
+}
+
+.delay-6s {
+  animation-delay: 3.9s;
+}
+
+.delay-7s {
+  animation-delay: 4.2s;
+}
+
+.delay-second {
+  animation-delay: 5s;
+}
+
+.delay-third {
+  animation-delay: 6s;
+}
+
+.delay-last {
+  animation-delay: 7s;
+}
+
+/* Background color special care section */
+
+@keyframes bg-fade {
+  0% {
+    background-color: hsl(30, 100%, 50%); /* Original color */
+  }
+  50% {
+    background-color: hsl(30, 100%, 70%); /* Lighter shade */
+  }
+  100% {
+    background-color: hsla(30, 100%, 50%, 0.955); /* Back to original color */
+  }
+}
+
+.animated-bg {
+  animation: bg-fade 4s ease-in-out infinite; /* Animation for fading */
+  -webkit-animation: bg-fade 4s ease-in-out infinite; /* For Safari */
+}
+
+/* stars scale up and down */
+
+@keyframes scale-up {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(90deg) scale(1.6); /* Rotate & shrink */
+  }
+  100% {
+    transform: rotate(0deg) scale(1); /* Complete rotation & reset */
+  }
+}
+
+@keyframes scale-down {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(90deg) scale(0.5); /* Rotate & shrink */
+  }
+  100% {
+    transform: rotate(0deg) scale(1); /* Complete rotation & reset */
+  }
+}
+
+.scale-up {
+  animation: scale-up 3s ease-in-out infinite;
+  -webkit-animation: scale-up 3s ease-in-out infinite;
+}
+
+.scale-down {
+  animation: scale-down 3s ease-in-out infinite;
+  -webkit-animation: scale-down 3s ease-in-out infinite;
+}
+
+/* puzzle scale up and down */
+
+@keyframes puzzle-scale-up {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(45deg) scale(1.3);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
+
+.puzzle-scale-up {
+  animation: puzzle-scale-up 3s ease-in-out infinite;
+}
+
+/* flower opacity animation */
+
+@keyframes flower-opacity-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.flower-opacity-in {
+  animation: flower-opacity-in 3s ease-in-out infinite;
+}
+
+/* parents-reviews */
+
+.star-1 {
+  animation-delay: 0s;
+}
+
+.star-2 {
+  animation-delay: 1s;
+}
+
+/* rocket-motion */
+
+@keyframes rocket-move {
+  0% {
+    transform: translate(-10px, 20px) rotate(0deg);
+  }
+  50% {
+    transform: translate(25px, -30px) rotate(-20deg);
+  }
+  100% {
+    transform: translate(-10px, 20px) rotate(0deg);
+  }
+}
+
+
+.rocket-motion {
+  animation: rocket-move 3s ease-in-out infinite;
+}
+
+/* baloon */
+
+@keyframes balloon-float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.balloon-motion {
+  animation: balloon-float 3s ease-in-out infinite;
+}
+
+/* teachers-section */
+
+@keyframes fade-toggle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.heart-1 {
+  animation: fade-toggle 3s infinite ease-in-out;
+}
+
+.heart-2 {
+  animation: fade-toggle 3s infinite ease-in-out;
+  animation-delay: 1.5s;
+}
