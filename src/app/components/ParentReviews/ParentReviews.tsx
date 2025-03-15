@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const ParentReviewstsx = () => {
+const ParentReviews = () => {
   return (
     <section
       id="documents"
@@ -83,4 +83,4 @@ const ParentReviewstsx = () => {
   );
 };
 
-export default ParentReviewstsx;
+export default ParentReviews;
