@@ -4,31 +4,31 @@ import React from "react";
 const cards = [
   {
     src: "hero/P.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[140px] md:-translate-x-[340px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[140px] lg:-translate-x-[340px] w-[48.62px] lg:w-[108.62px]",
   },
   {
     src: "hero/O.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[100px] md:-translate-x-[260px] w-[48.62px] md:w-[108.62px] ",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[100px] lg:-translate-x-[260px] w-[48.62px] lg:w-[108.62px] ",
   },
   {
     src: "hero/Q.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[60px] md:-translate-x-[180px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[60px] lg:-translate-x-[180px] w-[48.62px] lg:w-[108.62px]",
   },
   {
     src: "hero/U.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[20px] md:-translate-x-[90px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[20px] lg:-translate-x-[90px] w-[48.62px] lg:w-[108.62px]",
   },
   {
     src: "hero/I.svg",
-    class: "absolute bottom-0 left-1/2 transform translate-x-[15px] md:-translate-x-[0px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform translate-x-[15px] lg:-translate-x-[0px] w-[48.62px] lg:w-[108.62px]",
   },
   {
     src: "hero/T.svg",
-    class: "absolute bottom-0 left-1/2 transform translate-x-[54px] md:translate-x-[90px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform translate-x-[54px] lg:translate-x-[90px] w-[48.62px] lg:w-[108.62px]",
   },
   {
     src: "hero/O.svg",
-    class: "absolute bottom-0 left-1/2 transform translate-x-[89px] md:translate-x-[175px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform translate-x-[89px] lg:translate-x-[175px] w-[48.62px] lg:w-[108.62px]",
   },
 ];
 
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
 
           {/* Cards */}
 
-          <div className="bg-red-200 relative mx-auto mt-11 md:mt-21 z-[-10]">
+          <div className="relative mx-auto mt-11 lg:mt-21 z-[-10]">
             {cards.map((card, index, arr) => {
               // add animate class
               card.class +=
