@@ -52,7 +52,7 @@ const Header: React.FC = () => {
           onClick={() => setOpen(!open)}
         >
           {open ? (
-            <span className="text-3xl font-bold text-gray-800">✖</span>
+            <span className="text-xl text-gray-800">✖</span>
           ) : (
             <Image
               src={"/menu-icon.svg"}
@@ -92,7 +92,7 @@ const Header: React.FC = () => {
 
       {open && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-40 z-30 transition-opacity"
+          className="fixed inset-0 bg-transparent z-30 transition-opacity"
           onClick={() => setOpen(false)}
         ></div>
       )}
