@@ -5,7 +5,7 @@ import React from "react";
 const socialLinks = [
   { src: "/linkedin.svg", href: "/" },
   { src: "/whatsapp.svg", href: "/" },
-  { src: "/insta.svg", href: "/" },
+  { src: "/Insta.svg", href: "/" },
   { src: "/snapchat.svg", href: "/" },
 ];
 
