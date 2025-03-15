@@ -15,7 +15,7 @@ const Header: React.FC = () => {
             alt="Logo"
             width={200}
             height={200}
-            priority
+            // priority
           />
         </div>
 
