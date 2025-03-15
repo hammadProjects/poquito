@@ -8,7 +8,7 @@ const Header: React.FC = () => {
 
   return (
     <header className="py-6 relative">
-      <div className="max-w-[90%] lg:max-w-[85%] mx-auto px-2 sm:px-4 py-4 bg-[#F7F7F7] rounded-2xl flex justify-between items-center">
+      <div className="h-18 max-w-[90%] lg:max-w-[85%] mx-auto px-2 sm:px-4 py-4 bg-[#F7F7F7] rounded-2xl flex justify-between items-center">
         <div>
           <Image
             src={"/poquito-logo.svg"}
