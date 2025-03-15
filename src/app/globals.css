@@ -76,11 +76,12 @@ body::-webkit-scrollbar {
 }
 
 @keyframes moveRight {
-  0% {
-    transform: translateX(-20px);
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
   }
-  100% {
-    transform: translateY(0);
+  to {
+    transform: translateX(0);
     opacity: 1;
   }
 }
