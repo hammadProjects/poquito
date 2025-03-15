@@ -5,7 +5,7 @@ const SpecialCare: React.FC = () => {
   return (
     <section>
       <div
-        className="max-w-[90%] lg:max-w-[70%] mx-auto py-20 grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:gap-0"
+        className="max-w-[90%] lg:max-w-[70%] mx-auto pt-13 pb-5 md:py-20 grid grid-cols-1 md:grid-cols-2 md:gap-5 lg:gap-0"
         id="about"
       >
         <div className="flex justify-center items-center relative">
