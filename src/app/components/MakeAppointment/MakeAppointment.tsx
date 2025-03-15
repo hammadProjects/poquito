@@ -4,13 +4,13 @@ import React from "react";
 const MakeAppointment: React.FC = () => {
   return (
     <section className="bg-[#0F73EC] text-white py-10 px-3 lg:py-25">
-      <div className="text-center max-w-[90%] md:max-w-[60%] mx-auto relative">
+      <div className="text-center max-w-[90%] mx-auto relative">
         <Image
           src={"/starts-pink.svg"}
           alt="stars"
           width={100}
           height={100}
-          className="absolute top-[-40px] left-[-20px]"
+          className="absolute top-[-40px] -left-10 sm:left-[-20px]"
           priority
         />
         <h2
@@ -34,14 +34,14 @@ const MakeAppointment: React.FC = () => {
             alt="star"
             width={20}
             height={20}
-            className="flower-opacity-in block mt-2 ml-2 star-1"
+            className="flower-opacity-in block mt-2 star-1"
           />
           <Image
             src={"/special-care/pink-star.svg"}
             alt="star"
             width={40}
             height={40}
-            className="flower-opacity-in block mt-2 ml-2 star-2"
+            className="flower-opacity-in block mt-2 ml-6 star-2"
           />
           <Image
             src={"/special-care/pink-star.svg"}
