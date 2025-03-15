@@ -46,30 +46,29 @@ const Header: React.FC = () => {
           Contact us
         </Link>
 
-        {/* Mobile */}
-        <button
-          className="lg:hidden z-50 w-10 h-10 flex justify-center items-center"
-          onClick={() => setOpen(!open)}
-        >
-          {open ? (
-            <span className="text-xl text-gray-800">✖</span>
-          ) : (
-            <Image
-              src={"/menu-icon.svg"}
-              alt="menu-icon"
-              width={25}
-              height={25}
-            />
-          )}
+        <button className="lg:hidden" onClick={() => setOpen(!open)}>
+          <Image
+            src={"/menu-icon.svg"}
+            alt="menu-icon"
+            width={25}
+            height={25}
+          />
         </button>
       </div>
 
+      {/* Mobile */}
       <div
         className={`fixed top-0 right-0 w-64 h-full bg-white shadow-lg transform transition-transform duration-300 z-40 ${
           open ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <ul className="mt-20 space-y-5 text-lg text-center text-gray-800">
+        <ul className="mt-10 space-y-5 text-lg text-right px-5 text-gray-800">
+          <button
+            className="w-10 h-10 text-xl text-gray-800"
+            onClick={() => setOpen(!open)}
+          >
+            ✖
+          </button>
           {[
             { title: "About us", href: "#about" },
             { title: "Curriculum", href: "#curriculum" },
@@ -80,7 +79,7 @@ const Header: React.FC = () => {
             <li key={index}>
               <Link
                 href={link.href}
-                className="block p-2 hover:bg-gray-200 transition-colors"
+                className="block p-2 hover:bg-gray-200 transition-colors "
                 onClick={() => setOpen(false)}
               >
                 {link.title}
