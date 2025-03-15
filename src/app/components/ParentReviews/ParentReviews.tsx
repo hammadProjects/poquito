@@ -53,7 +53,14 @@ const ParentReviews = () => {
               className="flower-opacity-in block -mt-2 sm:mt-2 ml-2 star-1"
             />
           </div>
-          <Image src={"/parents-reviews.svg"} alt="girrafe" layout="fill" />
+
+          {/* left section */}
+
+          <div>
+            <Image src={"/parents-reviews.svg"} alt="girrafe" layout="fill" />
+            <Image src={"hero/poquito.svg"} alt="girrafe" layout="fill" />
+          </div>
+
           <div className="absolute sm:left-10 bottom-0 flex rotate-45">
             <Image
               src={"/special-care/blue-star.png"}
