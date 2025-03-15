@@ -43,7 +43,7 @@ const Curriculum: React.FC = () => {
         alt="right-flower"
         width={100}
         height={100}
-        className="absolute bottom-1/4 left-10 rocket-motion"
+        className="absolute lg:bottom-1/4 lg:left-7 rocket-motion"
       />
 
       <div className="max-w-[90%] lg:max-w-[80%] mx-auto space-y-5">
@@ -53,15 +53,15 @@ const Curriculum: React.FC = () => {
             alt="flower-1"
             width={30}
             height={30}
-            className="absolute top-0 -left-3 sm:left-0 flower-opacity-in"
+            className="absolute -top-9 -left-3 sm:left-0 flower-opacity-in"
           />
           <h3
-            className="text-2xl sm:text-4xl md:text-5xl text-center"
+            className="text-2xl sm:text-4xl md:text-5xl sm:text-center"
             style={{ fontFamily: "Jua" }}
           >
             Our Exclusive Curriculum
           </h3>
-          <p className="max-w-[874px] mx-auto mt-4 text-center text-xs sm:text-sm md:text-base lg:text-xl">
+          <p className="max-w-[874px] mx-auto mt-4 sm:text-center text-xs sm:text-sm md:text-base lg:text-xl">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry&apos;s standard dummy
             text{" "}
@@ -71,7 +71,7 @@ const Curriculum: React.FC = () => {
             alt="flower-1"
             width={20}
             height={20}
-            className="absolute -bottom-10 sm:bottom-0 right-0 flower-opacity-in z-10"
+            className="absolute -bottom-4 sm:bottom-0 right-0 flower-opacity-in z-10"
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 relative">
@@ -99,10 +99,10 @@ const Curriculum: React.FC = () => {
       </div>
       <Image
         src={"/curriculam/baloon.svg"}
-        alt="right-flower"
+        alt="baloon"
         width={60}
         height={60}
-        className="absolute bottom-1/4 right-10 z-10 balloon-motion"
+        className="absolute bottom-6 sm:bottom-1/10 lg:bottom-1/4 sm:right-10 z-10 balloon-motion"
       />
     </section>
   );
