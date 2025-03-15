@@ -9,7 +9,7 @@ const SpecialCare: React.FC = () => {
         id="about"
       >
         <div className="flex justify-center items-center relative">
-          <div className="absolute right-10 top-0 flex">
+          <div className="absolute right-10 -top-10 sm:top-0 flex">
             <Image
               src={"/special-care/blue-star.png"}
               alt="star"
@@ -40,7 +40,7 @@ const SpecialCare: React.FC = () => {
               height={300}
             />
           </div>
-          <div className="absolute left-10 bottom-0">
+          <div className="absolute -left-1 sm:left-10 -bottom-2 sm:bottom-0">
             <Image
               src={"/special-care/pink-puzzle.svg"}
               alt="star"

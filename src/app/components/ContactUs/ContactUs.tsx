@@ -62,7 +62,7 @@ const ContactUs: React.FC = () => {
                   className="mt-1 bg-[#F5F5F5] w-full py-2 px-2 rounded-sm"
                 />
               </div>
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-4">
                 <div className="grow-1">
                   <label className="text-xs" htmlFor="email">
                     Email

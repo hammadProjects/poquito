@@ -30,7 +30,7 @@ const ParentReviewstsx = () => {
           </div>
         </div>
         <div className="relative col-span-5 lg:col-span-3 min-h-[320px] h-full">
-          <div className="absolute right-10">
+          <div className="absolute right-0 sm:right-10">
             <Image
               src={"/special-care/pink-star.svg"}
               alt="star"
@@ -50,11 +50,11 @@ const ParentReviewstsx = () => {
               alt="star"
               width={20}
               height={20}
-              className="flower-opacity-in block mt-2 ml-2 star-1"
+              className="flower-opacity-in block -mt-2 sm:mt-2 ml-2 star-1"
             />
           </div>
           <Image src={"/parents-reviews.svg"} alt="girrafe" layout="fill" />
-          <div className="absolute left-10 bottom-0 flex">
+          <div className="absolute sm:left-10 bottom-0 flex rotate-45">
             <Image
               src={"/special-care/blue-star.png"}
               alt="star"

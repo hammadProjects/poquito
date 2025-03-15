@@ -10,7 +10,7 @@ const MakeAppointment: React.FC = () => {
           alt="stars"
           width={100}
           height={100}
-          className="absolute top-[-40px] left-[-10px]"
+          className="absolute top-[-40px] left-[-20px]"
           priority
         />
         <h2
@@ -28,7 +28,7 @@ const MakeAppointment: React.FC = () => {
         >
           Make an Appointment
         </button>
-        <div className="absolute bottom-10 right-10">
+        <div className="absolute -bottom-5 sm:bottom-10 right-10">
           <Image
             src={"/special-care/pink-star.svg"}
             alt="star"
