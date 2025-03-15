@@ -43,7 +43,7 @@ const Curriculum: React.FC = () => {
         alt="right-flower"
         width={100}
         height={100}
-        className="absolute bottom-1/4 left-10 z-10 rocket-motion"
+        className="absolute bottom-1/4 left-10 rocket-motion"
       />
 
       <div className="max-w-[90%] lg:max-w-[80%] mx-auto space-y-5">
@@ -53,7 +53,7 @@ const Curriculum: React.FC = () => {
             alt="flower-1"
             width={30}
             height={30}
-            className="absolute top-0 left-0 flower-opacity-in"
+            className="absolute top-0 -left-3 sm:left-0 flower-opacity-in"
           />
           <h3
             className="text-2xl sm:text-4xl md:text-5xl text-center"
@@ -71,7 +71,7 @@ const Curriculum: React.FC = () => {
             alt="flower-1"
             width={20}
             height={20}
-            className="absolute bottom-0 right-0  flower-opacity-in"
+            className="absolute -bottom-10 sm:bottom-0 right-0 flower-opacity-in z-10"
           />
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2 md:gap-5 relative">
