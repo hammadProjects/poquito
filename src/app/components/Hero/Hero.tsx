@@ -34,7 +34,7 @@ const cards = [
 
 const Hero: React.FC = () => {
   return (
-    <section className="h-[350px]">
+    <section className="h-[350px]" id="hero">
       <div className="max-w-[70%] mx-auto text-center relative">
         <Image
           src={"/cloud.svg"}

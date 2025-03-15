@@ -27,8 +27,8 @@ const Footer: React.FC = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 pt-8 gap-3 sm:gap-5">
               <div className="flex flex-col gap-1 sm:gap-3">
                 {[
-                  { title: "Contact Us", href: "/" },
-                  { title: "Teachers", href: "/" },
+                  { title: "Contact Us", href: "#contact" },
+                  { title: "Teachers", href: "#admissions" },
                 ].map((item, index) => (
                   <Link href={item.href} key={index} className="">
                     {item.title}
@@ -38,10 +38,10 @@ const Footer: React.FC = () => {
 
               <div className="flex flex-col gap-1 sm:gap-3">
                 {[
-                  { title: "About Us", href: "/" },
-                  { title: "Curriculum", href: "/" },
-                  { title: "Admissions", href: "/" },
-                  { title: "Parents", href: "/" },
+                  { title: "About Us", href: "#about" },
+                  { title: "Curriculum", href: "#curriculum" },
+                  { title: "Admissions", href: "#admissions" },
+                  { title: "Parents", href: "#documents" },
                 ].map((item, index) => (
                   <Link href={item.href} key={index} className="">
                     {item.title}
@@ -51,9 +51,9 @@ const Footer: React.FC = () => {
 
               <div className="flex flex-col gap-1 sm:gap-3">
                 {[
-                  { title: "Documents", href: "/" },
-                  { title: "The Nursery", href: "/" },
-                  { title: "Links", href: "/" },
+                  { title: "Documents", href: "#documents" },
+                  { title: "The Nursery", href: "#hero" },
+                  { title: "Links", href: "#header" },
                 ].map((item, index) => (
                   <Link href={item.href} key={index} className="">
                     {item.title}
