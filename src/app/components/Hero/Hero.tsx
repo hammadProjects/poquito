@@ -4,31 +4,31 @@ import React from "react";
 const cards = [
   {
     src: "hero/P.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[160px] md:-translate-x-[360px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[140px] md:-translate-x-[340px] w-[48.62px] md:w-[108.62px]",
   },
   {
     src: "hero/O.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[120px] md:-translate-x-[280px] w-[48.62px] md:w-[108.62px] ",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[100px] md:-translate-x-[260px] w-[48.62px] md:w-[108.62px] ",
   },
   {
     src: "hero/Q.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[75px] md:-translate-x-[200px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[60px] md:-translate-x-[180px] w-[48.62px] md:w-[108.62px]",
   },
   {
     src: "hero/U.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[35px] md:-translate-x-[120px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform -translate-x-[20px] md:-translate-x-[90px] w-[48.62px] md:w-[108.62px]",
   },
   {
     src: "hero/I.svg",
-    class: "absolute bottom-0 left-1/2 transform -translate-x-[0px] md:-translate-x-[50px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform translate-x-[15px] md:-translate-x-[0px] w-[48.62px] md:w-[108.62px]",
   },
   {
     src: "hero/T.svg",
-    class: "absolute bottom-0 left-1/2 transform translate-x-[35px] md:translate-x-[45px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform translate-x-[54px] md:translate-x-[90px] w-[48.62px] md:w-[108.62px]",
   },
   {
     src: "hero/O.svg",
-    class: "absolute bottom-0 left-1/2 transform translate-x-[75px] md:translate-x-[125px] w-[48.62px] md:w-[108.62px]",
+    class: "absolute bottom-0 left-1/2 transform translate-x-[89px] md:translate-x-[175px] w-[48.62px] md:w-[108.62px]",
   },
 ];
 
